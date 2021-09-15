@@ -1,0 +1,21 @@
+.term{
+    margin: 0;
+    height: 95%;
+}
+.params{
+    margin : 0;
+    height: 5vh;
+    vertical-align: center;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+

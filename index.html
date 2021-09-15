@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anagramme</title>
-</head>
-<body>
-    <input type="text" onkeydown="search(this)" placeholder="Texte ici">
-    <p id="sortie">Sortie ici</p>
-    <script>
-        function search(ele) {
-        if(event.key === 'Enter') {
-            document.getElementById("sortie").innerHTML = ele.value.split('').sort(function(){return 0.5-Math.random()}).join('');
-        }
-    }
-    </script>
-</body>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Anagramme</title>
+    </head>
+    <body onfocus="onfucus()">
+    <script src="./scripts.js"></script>
+    </body>
 </html>
