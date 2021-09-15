@@ -6,7 +6,13 @@ const term = $('body').terminal(function(input) {
     if(input === "config") return sendConfig.bind(this)()
     mixText(input)
 }, {
-    greetings: 'ANAGRAMMES\n' +
+    greetings:
+        '    ___    _   _____   __________  ___    __  _____  _________\n' +
+        '   /   |  / | / /   | / ____/ __ \\/   |  /  |/  /  |/  / ____/\n' +
+        '  / /| | /  |/ / /| |/ / __/ /_/ / /| | / /|_/ / /|_/ / __/   \n' +
+        ' / ___ |/ /|  / ___ / /_/ / _, _/ ___ |/ /  / / /  / / /___   \n' +
+        '/_/  |_/_/ |_/_/  |_\\____/_/ |_/_/  |_/_/  /_/_/  /_/_____/   \n' +
+        '                                                              \n' +
         'Tapez "config" pour la configuration ou entrez du texte pour en faire un anagramme'
 })
 function onfucus(){
